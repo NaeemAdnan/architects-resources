@@ -1,0 +1,79 @@
+/* shared item */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+/* Header Section */
+.header {
+    padding: 50px 240px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-head {
+    border: 1px salmon solid;
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav ul {
+    border: 1px salmon solid;
+    display: flex;
+}
+
+nav li {
+    border: 1px salmon solid;
+    list-style: none;
+    /* margin-right: 30px; */
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.banner {
+    border: 1px salmon solid;
+    text-align: center;
+    align-items: center;
+    color: var(--Dark-01, #131313);
+}
+
+header img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    .header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
