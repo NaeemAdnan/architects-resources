@@ -39,6 +39,7 @@ nav {
 nav ul {
     border: 1px salmon solid;
     display: flex;
+
 }
 
 nav li {
@@ -50,6 +51,7 @@ nav li {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
+    margin-right: 20px;
 }
 
 nav li a {
@@ -70,10 +72,22 @@ header img {
 
 /* Responsive */
 @media screen and (max-width: 576px) {
-    .header{
-        padding: 20px;
+    .header {
+        padding: 20px 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .header {
+        padding: 50px 50px;
+    }
+
+    nav {
+        flex-direction: column;
+
     }
 }
